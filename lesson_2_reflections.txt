@@ -30,3 +30,11 @@ their abstract reasoning.  It's therefore easier to conceptualize this area of
 version control when thinking about it from a spatial point of reference.
 With this spatial perspective, it's also easier to see family structure,
 especially parentage of any given branch.
+
+(6.)  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Each branch consists of two distinct versions, each with their own additions
+and deletions.  When a user merges the branches, each branches additions and
+deletions are combined to create a single version which includes the sum
+changes of both.
+both.
