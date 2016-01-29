@@ -1,0 +1,53 @@
+(1.)  How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+It didn't.  For whatever reason, the commands Udacity suggested I use created
+hundreds upon hundreds of lines of code for me to search through.  It would
+have taken hours for me to figure out where the small spelling error occured.
+After an hour of problem solving, plugging back in the commands Udacity gave,
+and reading hundreds of lines of code, I skipped the damn question.
+
+(2.)  How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+
+If a mistake is made somewhere along the way, I could track the problem to its
+source, discovering where things drifted off course.  I could also revert
+things to an earlier version if I couldn't track down where things went wrong.
+
+(3.)  What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically saved,
+like Google Docs does?
+
+Google Docs may save at inopportune times, creating unusable, incomplete code.
+Manual saves may not be updated regularly due to user error.
+
+(4.)  Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs treat each file
+separately?
+
+Git recognizes the interactions between files that are being coded.  Other
+version control systems aren't geared toward programmers.
+
+(5.)  How can you use the commands git log and git diff to view the history of files?
+
+Use them in conjunction.  First use the "git log" to what commits were made
+when.  Then use "get diff" to compare the changes that occurred between
+commits.  It's actually pretty great once you get it all setup, though,
+admittedly, the setting up portion sucked for me.  That was mostly due to to
+the crappy directions given on the Udacity video...
+
+(6.)  How might using version control make you more confident to make changes that could break something?
+
+Simple.  I could alwys revert back to an earlier, unbroken version, or, more
+importantly, I could easily track down the commit where the problem began.
+Then I could use a diff to see what I changed from the earlier commit and
+track down the line that caused the problem.
+
+(7.)  Now that you have your workspace set up, what do you want to try using Git for?
+
+Firstly, and most importantly, my workspace isn't setup how I like it or how
+you Audacity showed it in the demonstration.  This is going to take a bit more
+work for me to sus out.  Secondly, I want to use Git for coding, plain and
+simple.  I need version control for the programs I'm writing.  Lots and lots
+of code.  Lots and lots of screwing around with code.  Lots and lots of
+version control.

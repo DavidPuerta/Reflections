@@ -1,0 +1,4 @@
+(1.)  What happens when you initialize a repository? Why do you need to do it?
+
+When initializing a repository, all I need is a folder in which to initialize
+it, as well as some files on which to initialize it.
