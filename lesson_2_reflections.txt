@@ -2,3 +2,10 @@
 
 When initializing a repository, all I need is a folder in which to initialize
 it, as well as some files on which to initialize it.
+
+(2.)  How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It's the pergatory of version control.  Since many of the commits affect a
+repository server-side, the staging area is a place commits can hang out
+until the user has access to the internet.  Once the user has access, the
+commits can affect the server-side repository.
