@@ -15,3 +15,10 @@ commits can affect the server-side repository.
 I can first enusure the file about to be committed only has one logical
 change.  Then I can add any other files to the staging area that will be
 changed by the commit.
+
+(4.)  What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are a great way to check out something new, take the code in a new
+direction, or build in an alternative.  The whole idea is to allow the user a
+chance to try something without breaking what he's already created.  It gives
+him freedom to play around without fear of ruining his work.
