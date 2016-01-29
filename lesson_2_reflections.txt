@@ -9,3 +9,9 @@ It's the pergatory of version control.  Since many of the commits affect a
 repository server-side, the staging area is a place commits can hang out
 until the user has access to the internet.  Once the user has access, the
 commits can affect the server-side repository.
+
+(3.)  How can you use the staging area to make sure you have one commit per logical change?
+
+I can first enusure the file about to be committed only has one logical
+change.  Then I can add any other files to the staging area that will be
+changed by the commit.
