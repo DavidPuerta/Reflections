@@ -22,3 +22,11 @@ Branches are a great way to check out something new, take the code in a new
 direction, or build in an alternative.  The whole idea is to allow the user a
 chance to try something without breaking what he's already created.  It gives
 him freedom to play around without fear of ruining his work.
+
+(5.)  How do the diagrams help you visualize the branch structure?
+
+Humans spatial memory and spatial reasoning is more highly developed than
+their abstract reasoning.  It's therefore easier to conceptualize this area of
+version control when thinking about it from a spatial point of reference.
+With this spatial perspective, it's also easier to see family structure,
+especially parentage of any given branch.
