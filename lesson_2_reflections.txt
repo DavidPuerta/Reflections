@@ -37,4 +37,12 @@ Each branch consists of two distinct versions, each with their own additions
 and deletions.  When a user merges the branches, each branches additions and
 deletions are combined to create a single version which includes the sum
 changes of both.
+
+(7.)  What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+If Git handles the merging, there is still the chance the user may have
+overlooked something during the merge, and Git isn't built to necessarily
+catch such things, whereas doing it manually the user is more likely to catch
+a mistake.  On the other hand, merging manually takes one hell of a long time
+in comparison.
 both.
