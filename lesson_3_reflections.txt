@@ -22,3 +22,16 @@ used on repositories locally or within Github.
 It might come in handy if you won't have internet access in the near future,
 and you want to work with some recent commits from collaborators working on
 your repository.
+
+(5.)  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I've never collaborated on a coding project, on Github or otherwise.  I
+imagine without Github there'd be a whole lot more of shipping full
+repositories back and forth.  I know large files, such as those written in
+machine code, are better for other, non-Git
+type version control systems.  So I assume those would be easier to
+collaborate on without Git.  Also, projects in which you need to save every two
+seconds are better used on non-Git type version control systems.  I imagine
+that would still be true.  But wow, Git's powerful when using branching,
+merging, and testing code that a collaborater introduced.  It feels impossible
+to break your code since you can just jump back to a previous version. 
