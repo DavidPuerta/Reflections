@@ -34,4 +34,13 @@ collaborate on without Git.  Also, projects in which you need to save every two
 seconds are better used on non-Git type version control systems.  I imagine
 that would still be true.  But wow, Git's powerful when using branching,
 merging, and testing code that a collaborater introduced.  It feels impossible
-to break your code since you can just jump back to a previous version. 
+to break your code since you can just jump back to a previous version.
+
+(6.)  When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When you don't have the authority to make merges in the master branch, or when
+you aren't sure of what the outcome will be when you make the merge to the
+master branch, or when you want to leave that job to someone else for some
+other reason, you'd make changes to a separate branch.  This leaves greater
+freedom to the master branch merge, and clues in your collaborates when you
+use pull requests for a merge, after making changes to a separate branch.
