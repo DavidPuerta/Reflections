@@ -16,3 +16,9 @@ Forks are used only in Github to clone a repository.  Clones are used either
 to clone a repository from Github to local, or from local to local.  Branches
 are used to create different offshoots within a repository.  Branches may be
 used on repositories locally or within Github.
+
+(4.)  What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It might come in handy if you won't have internet access in the near future,
+and you want to work with some recent commits from collaborators working on
+your repository.
